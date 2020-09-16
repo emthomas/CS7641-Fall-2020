@@ -1,0 +1,8 @@
+Regression:
+  Wine: https://archive.ics.uci.edu/ml/datasets/Wine+Quality
+  Bike Sharing: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset#
+Classification:
+  tic-tac-toe: https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame
+  credit: https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+  adult: https://archive.ics.uci.edu/ml/datasets/Census+Income
+  diabetes: https://archive.ics.uci.edu/ml/datasets/Census+Income

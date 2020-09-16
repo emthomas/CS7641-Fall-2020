@@ -1,0 +1,25 @@
+% Start
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{distribution_Adult}
+  \caption{Adult}
+  \label{fig:balance_Adult_Adult}
+\end{subfigure}
+\caption{Adult Class Distribution}
+\label{fig:balance_curve}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{distribution_Diabetes}
+  \caption{Diabetes}
+  \label{fig:balance_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Class Distribution}
+\label{fig:balance_curve}
+\end{figure}
+
+\FloatBarrier
