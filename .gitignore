@@ -3,3 +3,4 @@ fun/*
 out/
 venv/
 .DS_Store
+*.pyc
