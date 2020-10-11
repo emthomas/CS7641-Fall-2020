@@ -1,0 +1,4674 @@
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times}
+  \caption{Queens Times}
+  \label{fig:Queens_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_scores}
+  \caption{TravellingSales Scores}
+  \label{fig:TravellingSales_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_times}
+  \caption{TravellingSales Times}
+  \label{fig:TravellingSales_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_scores}
+  \caption{TravellingSales Scores}
+  \label{fig:TravellingSales_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_times}
+  \caption{TravellingSales Times}
+  \label{fig:TravellingSales_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_scores}
+  \caption{TravellingSales Scores}
+  \label{fig:TravellingSales_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_times}
+  \caption{TravellingSales Times}
+  \label{fig:TravellingSales_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_scores}
+  \caption{TravellingSales Scores}
+  \label{fig:TravellingSales_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_times}
+  \caption{TravellingSales Times}
+  \label{fig:TravellingSales_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:FourPeaks_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:TravellingSales_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:FourPeaks_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:TravellingSales_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:FourPeaks_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:Knapsack_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:TravellingSales_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:FourPeaks_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:Knapsack_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:TravellingSales_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:FourPeaks_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:Knapsack_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{TravellingSales_SimulatedAnnealing_max_attempts_scores}
+  \caption{max attempts Scores}
+  \label{fig:TravellingSales_SimulatedAnnealing_max_attempts_scores}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_scores_complexity}
+  \caption{SixPeaks Scores}
+  \label{fig:SixPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_times_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_iters_to_convergence_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_scores_complexity}
+  \caption{SixPeaks Scores}
+  \label{fig:SixPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_times_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_iters_to_convergence_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_scores_complexity}
+  \caption{SixPeaks Scores}
+  \label{fig:SixPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_times_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_iters_to_convergence_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_scores_complexity}
+  \caption{OneMax Scores}
+  \label{fig:OneMax_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_times_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_iters_to_convergence_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores_complexity}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times_complexity}
+  \caption{Queens Times}
+  \label{fig:Queens_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_iters_to_convergence_complexity}
+  \caption{Queens Times}
+  \label{fig:Queens_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_scores_complexity}
+  \caption{Knapsack Scores}
+  \label{fig:Knapsack_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_times_complexity}
+  \caption{Knapsack Times}
+  \label{fig:Knapsack_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_iters_to_convergence_complexity}
+  \caption{Knapsack Times}
+  \label{fig:Knapsack_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_scores_complexity}
+  \caption{OneMax Scores}
+  \label{fig:OneMax_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_times_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_iters_to_convergence_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_scores_complexity}
+  \caption{OneMax Scores}
+  \label{fig:OneMax_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_times_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_iters_to_convergence_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_scores_complexity}
+  \caption{OneMax Scores}
+  \label{fig:OneMax_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_scores_complexity}
+  \caption{Knapsack Scores}
+  \label{fig:Knapsack_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_times_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_times_complexity}
+  \caption{Knapsack Times}
+  \label{fig:Knapsack_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{OneMax_iters_to_convergence_complexity}
+  \caption{OneMax Times}
+  \label{fig:OneMax_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Knapsack_iters_to_convergence_complexity}
+  \caption{Knapsack Times}
+  \label{fig:Knapsack_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_scores_complexity}
+  \caption{SixPeaks Scores}
+  \label{fig:SixPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_times_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_iters_to_convergence_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_scores_complexity}
+  \caption{SixPeaks Scores}
+  \label{fig:SixPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_times_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_iters_to_convergence_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_scores_complexity}
+  \caption{SixPeaks Scores}
+  \label{fig:SixPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_times_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_iters_to_convergence_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_scores_complexity}
+  \caption{SixPeaks Scores}
+  \label{fig:SixPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_scores_complexity}
+  \caption{Queens Scores}
+  \label{fig:Queens_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_times_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_times_complexity}
+  \caption{Queens Times}
+  \label{fig:Queens_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{SixPeaks_iters_to_convergence_complexity}
+  \caption{SixPeaks Times}
+  \label{fig:SixPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Queens_iters_to_convergence_complexity}
+  \caption{Queens Times}
+  \label{fig:Queens_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{CustomFitness_scores_complexity}
+  \caption{CustomFitness Scores}
+  \label{fig:CustomFitness_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{CustomFitness_times_complexity}
+  \caption{CustomFitness Times}
+  \label{fig:CustomFitness_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{CustomFitness_iters_to_convergence_complexity}
+  \caption{CustomFitness Times}
+  \label{fig:CustomFitness_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_MLP_default}
+  \caption{MLP-Adult}
+  \label{fig:learnings_Adult_MLP}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Adult_default}
+  \caption{Adult Scalability}
+  \label{fig:scalability_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Adult_default}
+  \caption{Adult Time}
+  \label{fig:performance_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Adult_default}
+  \caption{Adult Performance}
+  \label{fig:performance_all_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Adult_default}
+  \caption{Adult}
+  \label{fig:comparisons_Adult}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_MLP_default}
+  \caption{MLP-Adult}
+  \label{fig:learnings_Adult_MLP}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Adult_default}
+  \caption{Adult Scalability}
+  \label{fig:scalability_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Adult_default}
+  \caption{Adult Time}
+  \label{fig:performance_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Adult_default}
+  \caption{Adult Performance}
+  \label{fig:performance_all_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Adult_default}
+  \caption{Adult}
+  \label{fig:comparisons_Adult}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_default}
+  \caption{NN-Adult}
+  \label{fig:learnings_Adult_NN}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Adult_default}
+  \caption{Adult Scalability}
+  \label{fig:scalability_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Adult_default}
+  \caption{Adult Time}
+  \label{fig:performance_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Adult_default}
+  \caption{Adult Performance}
+  \label{fig:performance_all_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Adult_default}
+  \caption{Adult}
+  \label{fig:comparisons_Adult}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_default}
+  \caption{NN-Adult}
+  \label{fig:learnings_Adult_NN}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Adult_default}
+  \caption{Adult Scalability}
+  \label{fig:scalability_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Adult_default}
+  \caption{Adult Time}
+  \label{fig:performance_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Adult_default}
+  \caption{Adult Performance}
+  \label{fig:performance_all_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Adult_default}
+  \caption{Adult}
+  \label{fig:comparisons_Adult}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_default}
+  \caption{NN-Adult}
+  \label{fig:learnings_Adult_NN}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Adult_default}
+  \caption{Adult Scalability}
+  \label{fig:scalability_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Adult_default}
+  \caption{Adult Time}
+  \label{fig:performance_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Adult_default}
+  \caption{Adult Performance}
+  \label{fig:performance_all_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Adult_default}
+  \caption{Adult}
+  \label{fig:comparisons_Adult}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_RandomHillClimb_default}
+  \caption{NN RandomHillClimb-Adult}
+  \label{fig:learnings_Adult_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_SimulatedAnnealing_default}
+  \caption{NN SimulatedAnnealing-Adult}
+  \label{fig:learnings_Adult_NN_SimulatedAnnealing}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_GeneticAlg_default}
+  \caption{NN GeneticAlg-Adult}
+  \label{fig:learnings_Adult_NN_GeneticAlg}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Adult_default}
+  \caption{Adult Scalability}
+  \label{fig:scalability_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Adult_default}
+  \caption{Adult Time}
+  \label{fig:performance_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Adult_default}
+  \caption{Adult Performance}
+  \label{fig:performance_all_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Adult_default}
+  \caption{Adult}
+  \label{fig:comparisons_Adult}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_RandomHillClimb_default}
+  \caption{NN RandomHillClimb-Adult}
+  \label{fig:learnings_Adult_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_SimulatedAnnealing_default}
+  \caption{NN SimulatedAnnealing-Adult}
+  \label{fig:learnings_Adult_NN_SimulatedAnnealing}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Adult_NN_GeneticAlg_default}
+  \caption{NN GeneticAlg-Adult}
+  \label{fig:learnings_Adult_NN_GeneticAlg}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Adult_default}
+  \caption{Adult Scalability}
+  \label{fig:scalability_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Adult_default}
+  \caption{Adult Time}
+  \label{fig:performance_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Adult_default}
+  \caption{Adult Performance}
+  \label{fig:performance_all_Adult}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Adult_default}
+  \caption{Adult}
+  \label{fig:comparisons_Adult}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_default}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_SimulatedAnnealing_default}
+  \caption{NN SimulatedAnnealing-Diabetes}
+  \label{fig:learnings_Diabetes_NN_SimulatedAnnealing}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_GeneticAlg_default}
+  \caption{NN GeneticAlg-Diabetes}
+  \label{fig:learnings_Diabetes_NN_GeneticAlg}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_default}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_default}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_default}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_default}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_default}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_SimulatedAnnealing_default}
+  \caption{NN SimulatedAnnealing-Diabetes}
+  \label{fig:learnings_Diabetes_NN_SimulatedAnnealing}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_GeneticAlg_default}
+  \caption{NN GeneticAlg-Diabetes}
+  \label{fig:learnings_Diabetes_NN_GeneticAlg}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_GradientDescent_default}
+  \caption{NN GradientDescent-Diabetes}
+  \label{fig:learnings_Diabetes_NN_GradientDescent}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_default}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_default}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_default}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_default}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_scores_complexity}
+  \caption{FourPeaks Scores}
+  \label{fig:FourPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_times_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FourPeaks_iters_to_convergence_complexity}
+  \caption{FourPeaks Times}
+  \label{fig:FourPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_scores_complexity}
+  \caption{FlipFlop pop size Scores}
+  \label{fig:FlipFlop_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_times_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_iters_to_convergence_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_scores_complexity}
+  \caption{FlipFlop pop size Scores}
+  \label{fig:FlipFlop_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_scores_complexity}
+  \caption{ContinuousPeaks pop size Scores}
+  \label{fig:ContinuousPeaks_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_times_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_times_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_iters_to_convergence_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_scores_complexity}
+  \caption{FlipFlop pop size Scores}
+  \label{fig:FlipFlop_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_scores_complexity}
+  \caption{ContinuousPeaks pop size Scores}
+  \label{fig:ContinuousPeaks_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_pop_size_scores_complexity}
+  \caption{MaxKColor pop size Scores}
+  \label{fig:MaxKColor_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_times_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_times_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_pop_size_times_complexity}
+  \caption{MaxKColor pop size Times}
+  \label{fig:MaxKColor_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_iters_to_convergence_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_pop_size_iters_to_convergence_complexity}
+  \caption{MaxKColor pop size Times}
+  \label{fig:MaxKColor_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_scores_complexity}
+  \caption{FlipFlop pop size Scores}
+  \label{fig:FlipFlop_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_times_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_iters_to_convergence_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_scores_complexity}
+  \caption{FlipFlop pop size Scores}
+  \label{fig:FlipFlop_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_scores_complexity}
+  \caption{ContinuousPeaks pop size Scores}
+  \label{fig:ContinuousPeaks_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_times_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_times_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_iters_to_convergence_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_scores_complexity}
+  \caption{FlipFlop pop size Scores}
+  \label{fig:FlipFlop_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_scores_complexity}
+  \caption{ContinuousPeaks pop size Scores}
+  \label{fig:ContinuousPeaks_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_pop_size_scores_complexity}
+  \caption{MaxKColor pop size Scores}
+  \label{fig:MaxKColor_pop_size_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_times_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_times_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_pop_size_times_complexity}
+  \caption{MaxKColor pop size Times}
+  \label{fig:MaxKColor_pop_size_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_pop_size_iters_to_convergence_complexity}
+  \caption{FlipFlop pop size Times}
+  \label{fig:FlipFlop_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks pop size Times}
+  \label{fig:ContinuousPeaks_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_pop_size_iters_to_convergence_complexity}
+  \caption{MaxKColor pop size Times}
+  \label{fig:MaxKColor_pop_size_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_scores_complexity}
+  \caption{FlipFlop Scores}
+  \label{fig:FlipFlop_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_scores_complexity}
+  \caption{ContinuousPeaks Scores}
+  \label{fig:ContinuousPeaks_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_scores_complexity}
+  \caption{MaxKColor Scores}
+  \label{fig:MaxKColor_scores_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_times_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_times_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_times_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_times_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{FlipFlop_iters_to_convergence_complexity}
+  \caption{FlipFlop Times}
+  \label{fig:FlipFlop_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{ContinuousPeaks_iters_to_convergence_complexity}
+  \caption{ContinuousPeaks Times}
+  \label{fig:ContinuousPeaks_iters_to_convergence_complexity}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{MaxKColor_iters_to_convergence_complexity}
+  \caption{MaxKColor Times}
+  \label{fig:MaxKColor_iters_to_convergence_complexity}
+\end{subfigure}
+\caption{Plots}
+\label{fig:plots}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_default}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_SimulatedAnnealing_default}
+  \caption{NN SimulatedAnnealing-Diabetes}
+  \label{fig:learnings_Diabetes_NN_SimulatedAnnealing}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_GeneticAlg_default}
+  \caption{NN GeneticAlg-Diabetes}
+  \label{fig:learnings_Diabetes_NN_GeneticAlg}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_GradientDescent_default}
+  \caption{NN GradientDescent-Diabetes}
+  \label{fig:learnings_Diabetes_NN_GradientDescent}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_default}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_default}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_default}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_default}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Default Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{validations_Diabetes_NN_RandomHillClimb_restarts}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:validations_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\caption{Validation Curves}
+\label{fig:validations}
+\end{figure}
+
+\FloatBarrier
+
+\section{Best Parameters}
+
+
+Diabetes NN RandomHillClimb {'restarts': 0}\\
+
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_optimized}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_optimized}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_optimized}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_optimized}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_optimized}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Optimized Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{validations_Diabetes_NN_RandomHillClimb_restarts}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:validations_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\caption{Validation Curves}
+\label{fig:validations}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{validations_Diabetes_NN_RandomHillClimb_restarts}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:validations_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\caption{Validation Curves}
+\label{fig:validations}
+\end{figure}
+
+\FloatBarrier
+
+\section{Best Parameters}
+
+
+Diabetes NN RandomHillClimb {'restarts': 10}\\
+
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_optimized}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_optimized}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_optimized}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_optimized}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_optimized}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Optimized Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+
+\section{Best Parameters}
+
+
+Diabetes NN RandomHillClimb {'restarts': 10}\\
+
+
+\section{Best Parameters}
+
+
+Diabetes NN RandomHillClimb {'restarts': 10}\\
+Diabetes NN SimulatedAnnealing {'max iters': 200}\\
+
+
+\section{Best Parameters}
+
+
+Diabetes NN RandomHillClimb {'restarts': 10}\\
+Diabetes NN SimulatedAnnealing {'max iters': 200}\\
+Diabetes NN GeneticAlg {'pop size': 200, 'mutation prob': 0.5}\\
+
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_optimized}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_optimized}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_optimized}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_optimized}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_optimized}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Optimized Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_optimized}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_SimulatedAnnealing_optimized}
+  \caption{NN SimulatedAnnealing-Diabetes}
+  \label{fig:learnings_Diabetes_NN_SimulatedAnnealing}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_optimized}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_optimized}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_optimized}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_optimized}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Optimized Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_RandomHillClimb_optimized}
+  \caption{NN RandomHillClimb-Diabetes}
+  \label{fig:learnings_Diabetes_NN_RandomHillClimb}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_SimulatedAnnealing_optimized}
+  \caption{NN SimulatedAnnealing-Diabetes}
+  \label{fig:learnings_Diabetes_NN_SimulatedAnnealing}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{learnings_Diabetes_NN_GeneticAlg_optimized}
+  \caption{NN GeneticAlg-Diabetes}
+  \label{fig:learnings_Diabetes_NN_GeneticAlg}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{scalability_Diabetes_optimized}
+  \caption{Diabetes Scalability}
+  \label{fig:scalability_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_Diabetes_optimized}
+  \caption{Diabetes Time}
+  \label{fig:performance_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{performance_all_Diabetes_optimized}
+  \caption{Diabetes Performance}
+  \label{fig:performance_all_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{Diabetes_optimized}
+  \caption{Diabetes}
+  \label{fig:comparisons_Diabetes}
+\end{subfigure}
+\caption{Optimized Learning Curves}
+\label{fig:learning_curves}
+\end{figure}
+
+\FloatBarrier

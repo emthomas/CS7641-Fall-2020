@@ -186,8 +186,7 @@ class Processor(object):
                 plt.savefig(chart_path)
                 plt.close()
                 print(chart_path)
-                self.latex_subgraph(dataset=key, fig='learnings_' + dataset, caption=key + '-' + dataset,
-                                    filename=filename)
+                self.latex_subgraph(dataset=key, fig='learnings_' + dataset, caption=key + '-' + dataset, filename=filename)
 
         for dataset, data_metrics in metric_items.items():
             train_sizes = data_metrics.get('train_sizes')

@@ -1,0 +1,116 @@
+{
+  "FlipFlop": {
+    "GeneticAlg": {
+      "pop_size": {
+        "val": 100,
+        "score": 58.0
+      },
+      "mutation_prob": {
+        "val": 0.1,
+        "score": 58.0
+      }
+    },
+    "RandomHillClimb": {
+      "max_attempts": {
+        "val": 40,
+        "score": 55.0
+      },
+      "restarts": {
+        "val": 70,
+        "score": 57.0
+      }
+    },
+    "SimulatedAnnealing": {
+      "max_attempts": {
+        "val": 100,
+        "score": 62.0
+      }
+    },
+    "Mimic": {
+      "pop_size": {
+        "val": 800,
+        "score": 63.0
+      },
+      "keep_pct": {
+        "val": 0.1,
+        "score": 63.0
+      }
+    }
+  },
+  "ContinuousPeaks": {
+    "GeneticAlg": {
+      "pop_size": {
+        "val": 800,
+        "score": 115.0
+      },
+      "mutation_prob": {
+        "val": 0.3,
+        "score": 117.0
+      }
+    },
+    "RandomHillClimb": {
+      "max_attempts": {
+        "val": 100,
+        "score": 102.0
+      },
+      "restarts": {
+        "val": 90,
+        "score": 106.0
+      }
+    },
+    "SimulatedAnnealing": {
+      "max_attempts": {
+        "val": 50,
+        "score": 64.0
+      }
+    },
+    "Mimic": {
+      "pop_size": {
+        "val": 800,
+        "score": 113.0
+      },
+      "keep_pct": {
+        "val": 0.1,
+        "score": 113.0
+      }
+    }
+  },
+  "MaxKColor": {
+    "GeneticAlg": {
+      "pop_size": {
+        "val": 400,
+        "score": 45.0
+      },
+      "mutation_prob": {
+        "val": 0.1,
+        "score": 45.0
+      }
+    },
+    "RandomHillClimb": {
+      "max_attempts": {
+        "val": 60,
+        "score": 46.0
+      },
+      "restarts": {
+        "val": 60,
+        "score": 47.0
+      }
+    },
+    "SimulatedAnnealing": {
+      "max_attempts": {
+        "val": 20,
+        "score": 47.0
+      }
+    },
+    "Mimic": {
+      "pop_size": {
+        "val": 400,
+        "score": 46.0
+      },
+      "keep_pct": {
+        "val": 0.1,
+        "score": 46.0
+      }
+    }
+  }
+}

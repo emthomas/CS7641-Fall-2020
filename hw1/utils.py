@@ -179,6 +179,8 @@ class Diabetes(object):
                 test_size = 0.2
             elif 'MLP' in model:
                 test_size = 0.5
+            elif 'NN' in model:
+                test_size = 0.9
 
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=7, stratify=y)
 
