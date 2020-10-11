@@ -9,4 +9,5 @@ Download the code from https://github.com/emthomas/CS7641-Fall-2020
 
 To run the experiments:
 - python hw1/main.py
+- python hw2/main.py
 
