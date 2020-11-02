@@ -57,12 +57,16 @@ class Processor(object):
         self.best_models = {}
         self.best_params = {}
 
-    def process(self, dataset, estimator, control=False):
+    def process(self, dataset, estimator, control=False, data=None):
         print("Processing Learning Curves for %s with %s." % (dataset.__class__.__name__, estimator.name))
         model = self.best_models.get(
             dataset.__class__.__name__ + "_" + estimator.name) if not control else estimator.estimator
 
-        X_train, X_test, y_train, y_test = dataset.get_data(model=estimator.name)
+        if not data:
+            X_train, X_test, y_train, y_test = dataset.get_data(model=estimator.name)
+        else:
+            X_train, X_test, y_train, y_test = data.get('X_train'), data.get('X_test'), data.get('y_train'), data.get('y_test')
+
         train_sizes, train_scores, test_scores, fit_times, _ = learning_curve(estimator=model,
                                                                               X=X_train,
                                                                               y=y_train,
@@ -152,7 +156,7 @@ class Processor(object):
 \\FloatBarrier\n""" % (caption, fig))
 
     def latex_subgraph(self, dataset, fig, caption, filename):
-        latext_template = """\\begin{subfigure}{.3\\textwidth}
+        latext_template = """\\begin{subfigure}{.24\\textwidth}
   \\centering
   \\includegraphics[width=.9\\textwidth]{%s}
   \\caption{%s}
@@ -161,7 +165,7 @@ class Processor(object):
         with open('out.txt', 'a+') as f:
             f.write(latext_template % (filename, caption.replace("_", " "), fig, dataset))
 
-    def plot_learning_curves(self, control=False):
+    def plot_learning_curves(self, control=False, suffix=''):
         metric_items = self.metrics if not control else self.initial_metrics
         default = 'default' if control else 'optimized'
         self.latext_start_figure()
@@ -199,7 +203,7 @@ class Processor(object):
             plt.ylabel("Training Time")
             plt.title("Scalability of the model")
             plt.legend()
-            filename = 'scalability_%s_%s' % (dataset, default)
+            filename = 'scalability_%s_%s%s' % (dataset, default, suffix)
             chart_path = 'report/images/%s.png' % filename
             plt.savefig(chart_path)
             plt.close()
@@ -217,7 +221,7 @@ class Processor(object):
             plt.ylabel("Score")
             plt.title("Performance of the model")
             plt.legend()
-            filename = 'performance_%s_%s' % (dataset, default)
+            filename = 'performance_%s_%s%s' % (dataset, default, suffix)
             chart_path = 'report/images/%s.png' % filename
             plt.savefig(chart_path)
             plt.close()
@@ -234,7 +238,7 @@ class Processor(object):
             plt.ylabel("Score")
             plt.title("Performance of the model")
             plt.legend()
-            filename = 'performance_all_%s_%s' % (dataset, default)
+            filename = 'performance_all_%s_%s%s' % (dataset, default, suffix)
             chart_path = 'report/images/%s.png' % filename
             plt.savefig(chart_path)
             plt.close()
@@ -246,14 +250,17 @@ class Processor(object):
             fig = plt.figure()
             fig.suptitle('Algorithm Comparison')
             ax = fig.add_subplot(111)
-            plt.boxplot(metric_items[dataset]['results'])
-            ax.set_xticklabels(metric_items[dataset]['names'])
-            filename = '%s_%s' % (dataset, default)
-            chart_path = 'report/images/%s.png' % filename
-            plt.savefig(chart_path)
-            plt.close()
-            print(chart_path)
-            self.latex_subgraph(dataset=dataset, fig='comparisons', caption=dataset, filename=filename)
+            try:
+                plt.boxplot(metric_items[dataset]['results'])
+                ax.set_xticklabels(metric_items[dataset]['names'])
+                filename = '%s_%s' % (dataset, default)
+                chart_path = 'report/images/%s.png' % filename
+                plt.savefig(chart_path)
+                plt.close()
+                print(chart_path)
+                self.latex_subgraph(dataset=dataset, fig='comparisons', caption=dataset, filename=filename)
+            except Exception as e:
+                print(e)
 
         self.latex_end_figure(caption="%s Learning Curves" % (default[0].upper() + default[1:]), fig="learning_curves")
 

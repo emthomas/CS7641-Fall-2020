@@ -1,0 +1,346 @@
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Adult}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Adult_Adult}
+\end{subfigure}
+\caption{Adult Clusters}
+\label{fig:original_Adult}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Adult}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Adult_Adult}
+\end{subfigure}
+\caption{Adult Clusters}
+\label{fig:original_Adult}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Adult}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Adult_Adult}
+\end{subfigure}
+\caption{Adult Clusters}
+\label{fig:original_Adult}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Adult}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Adult_Adult}
+\end{subfigure}
+\caption{Adult Clusters}
+\label{fig:original_Adult}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_KMeans_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_KMeans_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{features_Diabetes}
+  \caption{Diabetes}
+  \label{fig:features_Diabetes_Diabetes}
+\end{subfigure}
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{features_Adult}
+  \caption{Adult}
+  \label{fig:features_Adult_Adult}
+\end{subfigure}
+\caption{Feature Importance}
+\label{fig:feature_importance}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Adult}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Adult_Adult}
+\end{subfigure}
+\caption{Adult Clusters}
+\label{fig:original_Adult}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Adult}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Adult_Adult}
+\end{subfigure}
+\caption{Adult Clusters}
+\label{fig:original_Adult}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{clusters_original_GaussianMixture_Diabetes}
+  \caption{}
+  \label{fig:clusters_original_GaussianMixture_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Clusters}
+\label{fig:original_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_pca_Diabetes}
+  \caption{PCA}
+  \label{fig:recall_pca_Diabetes_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_fastica_Diabetes}
+  \caption{FastICA}
+  \label{fig:recall_fastica_Diabetes_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_minibatchdictionarylearning_Diabetes}
+  \caption{DictionaryLearning}
+  \label{fig:recall_minibatchdictionarylearning_Diabetes_Diabetes}
+\end{subfigure}
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_sparserandomprojection_Diabetes}
+  \caption{RandomProjection}
+  \label{fig:recall_sparserandomprojection_Diabetes_Diabetes}
+\end{subfigure}
+\caption{Diabetes Precision-Recall Curve}
+\label{fig:pr_Diabetes}
+\end{figure}
+
+\FloatBarrier
+\begin{figure}[!htbp]
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_pca_Adult}
+  \caption{PCA}
+  \label{fig:recall_pca_Adult_Adult}
+\end{subfigure}
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_fastica_Adult}
+  \caption{FastICA}
+  \label{fig:recall_fastica_Adult_Adult}
+\end{subfigure}
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_minibatchdictionarylearning_Adult}
+  \caption{DictionaryLearning}
+  \label{fig:recall_minibatchdictionarylearning_Adult_Adult}
+\end{subfigure}
+\begin{subfigure}{.24\textwidth}
+  \centering
+  \includegraphics[width=.9\textwidth]{recall_sparserandomprojection_Adult}
+  \caption{RandomProjection}
+  \label{fig:recall_sparserandomprojection_Adult_Adult}
+\end{subfigure}
+\caption{Adult Precision-Recall Curve}
+\label{fig:pr_Adult}
+\end{figure}
+
+\FloatBarrier
