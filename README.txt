@@ -11,4 +11,5 @@ To run the experiments:
 - python hw1/main.py
 - python hw2/main.py
 - python hw3/main.py
+- python hw4/main.py
 
