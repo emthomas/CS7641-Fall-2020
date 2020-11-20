@@ -1,4 +1,3 @@
-# https://github.com/hakantekgul/cs7641-assignment4/blob/master/mdp.py
 import os
 import re
 import time
@@ -6,6 +5,7 @@ import time
 import gym
 import matplotlib.pyplot as plt
 import numpy as np
+from gym.envs.toy_text.frozen_lake import generate_random_map
 
 from hw1.main import Processor
 
@@ -115,123 +115,9 @@ def Taxi_Experiments():
     fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
     processor.latex_end_figure(caption=title, fig=fig)
 
-    # print('Q LEARNING WITH TAXI')
-    # st = time.time()
-    # reward_array = []
-    # iter_array = []
-    # time_array = []
-    # Q_array = []
-    # epsilons = [0.05, 0.15, 0.25, 0.5, 0.75, 0.90]
-    # smooth_rewards = []
-    # smooth_times = []
-    #
-    # for epsilon in epsilons:
-    #     Q = np.zeros((env.observation_space.n, env.action_space.n))
-    #     rewards = []
-    #     iters = []
-    #     optimal = [0] * env.observation_space.n
-    #     alpha = 1.0
-    #     gamma = 1.0
-    #     episodes = 2500
-    #     environment = 'Taxi-v1'
-    #     env = gym.make(environment)
-    #
-    #     # Keeps track of useful statistics
-    #     stats = plotting.EpisodeStats(
-    #         episode_lengths=np.zeros(episodes),
-    #         episode_rewards=np.zeros(episodes))
-    #
-    #     for episode in range(episodes):
-    #         state = env.reset()
-    #         done = False
-    #         t_reward = 0
-    #         max_steps = 1000000
-    #         for i in range(max_steps):
-    #             if done:
-    #                 break
-    #             current = state
-    #             if np.random.rand() < epsilon:
-    #                 action = np.argmax(Q[current, :])
-    #             else:
-    #                 action = env.action_space.sample()
-    #
-    #             state, reward, done, info = env.step(action)
-    #             # Update statistics
-    #             stats.episode_rewards[episode] += reward
-    #             stats.episode_lengths[episode] = i
-    #
-    #             t_reward += reward
-    #             Q[current, action] += alpha * (reward + gamma * np.max(Q[state, :]) - Q[current, action])
-    #
-    #         epsilon = (1 - 2.71 ** (-episode / 1000))
-    #         alpha = 2.71 ** (-episode / 1000)
-    #         rewards.append(t_reward)
-    #
-    #     eps_smooth, reward_smooth = plotting.plot_episode_stats(stats, noshow=True, smoothing_window=100)
-    #     smooth_rewards.append(reward_smooth)
-    #     smooth_times.append(eps_smooth)
-    #
-    #     reward_array.append(rewards)
-    #     iter_array.append(iters)
-    #     Q_array.append(Q)
-    #
-    #     env.close()
-    #     end = time.time()
-    #     time_array.append(end - st)
-    #
-    # plt.figure()
-    # plt.plot(epsilons, time_array, label="Q Learning")
-    # plt.xlabel('Learning Rate')
-    # plt.title('Taxi - Execution Time Analysis')
-    # plt.ylabel('Execution Time (s)')
-    # plt.legend(loc='best')
-    # title = "Taxi - Execution Time Analysis"
-    # plt.title("%s" % title)
-    # filename = '%s_%s_%s' % ('times', 'qlearning', dataset_name)
-    # chart_path = 'report/images/%s.png' % filename
-    # plt.savefig(chart_path)
-    # processor.latext_start_figure()
-    # processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Times', filename=filename)
-    #
-    # plt.figure()
-    # for epsilon, rewards in zip(epsilons, smooth_rewards):
-    #     plt.plot(rewards, label=f'epsilon={epsilon}')
-    #
-    # plt.legend(loc='best')
-    # plt.xlabel("Episode")
-    # plt.ylabel("Episode Reward (Smoothed)")
-    # plt.title("Taxi - Q Learning - Episode Reward over Time")
-    # title = "Taxi - Reward Analysis"
-    # plt.title("%s" % title)
-    # filename = '%s_%s_%s' % ('rewards', 'qlearning', dataset_name)
-    # chart_path = 'report/images/%s.png' % filename
-    # plt.savefig(chart_path)
-    # processor.latext_start_figure()
-    # processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Rewards', filename=filename)
-    #
-    # plt.figure()
-    # for epsilon, rewards in zip(epsilons, smooth_times):
-    #     plt.plot(rewards, label=f'epsilon={epsilon}')
-    #
-    # plt.xlabel('Episode')
-    # plt.legend(loc='best')
-    # plt.grid()
-    # plt.title('Taxi - Q Learning - Episode Length over Time')
-    # plt.ylabel('Steps')
-    # title = "Taxi - Reward Analysis"
-    # plt.title("%s" % title)
-    # filename = '%s_%s_%s' % ('convergence', 'qlearning', dataset_name)
-    # chart_path = 'report/images/%s.png' % filename
-    # plt.savefig(chart_path)
-    # processor.latext_start_figure()
-    # processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Convergence', filename=filename)
 
-
-def Frozen_Lake_Experiments():
-    environment = 'FrozenLake-v0'
-    env = gym.make(environment)
+def Frozen_Lake_Experiments(env, environment='FrozenLake-v0'):
     env = env.unwrapped
-    desc = env.unwrapped.desc
     gammas = [(x + 0.5) / 10 for x in range(3, 10)]
 
     policy_time_array = []
@@ -241,6 +127,7 @@ def Frozen_Lake_Experiments():
     ### POLICY ITERATION TAXI: ####
     print('POLICY ITERATION WITH FROZEN LAKE')
     for gamma in gammas:
+        print(f"gamma: {gamma}")
         all_iters = []
         all_times = []
         all_scores = []
@@ -288,13 +175,14 @@ def Frozen_Lake_Experiments():
     plt.ylabel('Execution Time (s)')
     plt.legend(loc='best')
 
-    dataset_name = 'FrozenLake-v0'
+    dataset_name = environment
     processor = Processor()
     title = "FrozenLake - Execution Time Analysis"
     plt.title("%s" % title)
     filename = '%s_%s_%s' % ('times', 'pi_vi', dataset_name)
     chart_path = 'report/images/%s.png' % filename
     plt.savefig(chart_path)
+    print(chart_path)
     processor.latext_start_figure()
     processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Times', filename=filename)
 
@@ -310,6 +198,7 @@ def Frozen_Lake_Experiments():
     filename = '%s_%s_%s' % ('rewards', 'pi_vi', dataset_name)
     chart_path = 'report/images/%s.png' % filename
     plt.savefig(chart_path)
+    print(chart_path)
     processor.latext_start_figure()
     processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Rewards', filename=filename)
 
@@ -325,176 +214,13 @@ def Frozen_Lake_Experiments():
     filename = '%s_%s_%s' % ('convergence', 'pi_vi', dataset_name)
     chart_path = 'report/images/%s.png' % filename
     plt.savefig(chart_path)
+    print(chart_path)
     processor.latext_start_figure()
     processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Convergence', filename=filename)
 
     title = "FrozenLake - PI and VI Charts"
     fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
     processor.latex_end_figure(caption=title, fig=fig)
-
-    # print('Q LEARNING WITH FROZEN LAKE')
-    # st = time.time()
-    # reward_array = []
-    # iter_array = []
-    # time_array = []
-    # Q_array = []
-    # epsilons = [0.05, 0.15, 0.25, 0.5, 0.75, 0.90]
-    # smooth_rewards = []
-    # smooth_times = []
-    #
-    # for epsilon in epsilons:
-    #     Q = np.zeros((env.observation_space.n, env.action_space.n))
-    #     rewards = []
-    #     iters = []
-    #     alpha = 1.0
-    #     gamma = 1.0
-    #     episodes = 5000
-    #     epsilon_decay = 0.99  # decay factor
-    #     env = gym.make(environment)
-    #
-    #     # Keeps track of useful statistics
-    #     stats = plotting.EpisodeStats(
-    #         episode_lengths=np.zeros(episodes),
-    #         episode_rewards=np.zeros(episodes))
-    #
-    #     for episode in range(1, episodes + 1):
-    #         epsilon = epsilon * epsilon_decay  # decay step
-    #         if episode % 1 == 0:
-    #             print(f"Episode {episode}")
-    #             # policy_map = np.argmax(policy, axis=1)
-    #             # plot_policy_map(title=f"Policy at episode {episode}",
-    #             #                 policy=policy_map.reshape(4, 4),
-    #             #                 map_desc=env.unwrapped.desc,
-    #             #                 color_map=colors_lake(),
-    #             #                 direction_map=directions_lake())
-    #             # print("debug")
-    #
-    #         state = env.reset()
-    #         done = False
-    #         epochs, penalties, reward, total_rewards = 0, 0, 0, 0
-    #
-    #         while reward != 20 and reward != 1:
-    #             if done:
-    #                 env.reset()
-    #             if np.random.rand() < epsilon:
-    #                 action = env.action_space.sample()  # Explore action space randomly
-    #             else:
-    #                 action = np.argmax(Q[state])  # Exploit learned values by choosing optimal values
-    #
-    #             next_state, reward, done, info = env.step(action)
-    #
-    #             old_value = Q[state, action]
-    #             next_max = np.max(Q[next_state])
-    #
-    #             new_value = (1 - alpha) * old_value + alpha * (reward + gamma * next_max)
-    #             Q[state, action] = new_value
-    #
-    #             if reward == -10:
-    #                 penalties += 1
-    #
-    #             state = next_state
-    #             epochs += 1
-    #             total_rewards += reward
-    #
-    #             stats.episode_rewards[episode] += reward
-    #             stats.episode_lengths[episode] = epochs
-    #
-    #         # all_episodes.append(episode)
-    #         # all_epochs.append(epochs)
-    #         # all_rewards.append(total_rewards / epochs)
-    #         #
-    #         # policy = extract_qlearning_policy(env, q_table)
-    #
-    #     # for episode in range(episodes):
-    #     #     if episode % 1000 == 0:
-    #     #         print(f"Episode {episode}")
-    #     #
-    #     #     state = env.reset()
-    #     #     done = False
-    #     #     t_reward = 0
-    #     #     max_steps = 1000000
-    #     #     reward = 0
-    #     #     for episode in range(max_steps):
-    #     #         if reward == 1:
-    #     #             break
-    #     #         if done:
-    #     #             env.reset()
-    #     #         current = state
-    #     #         if np.random.rand() < epsilon:
-    #     #             action = np.argmax(Q[current, :])
-    #     #         else:
-    #     #             action = env.action_space.sample()
-    #     #
-    #     #         state, reward, done, info = env.step(action)
-    #     #         # Update statistics
-    #     #         stats.episode_rewards[episode] += reward
-    #     #         stats.episode_lengths[episode] = episode
-    #     #
-    #     #         t_reward += reward
-    #     #         Q[current, action] += alpha * (reward + gamma * np.max(Q[state, :]) - Q[current, action])
-    #     #
-    #     #     epsilon = (1 - 2.71 ** (-episode / 1000))
-    #     #     alpha = 2.71 ** (-episode / 1000)
-    #     #     rewards.append(t_reward)
-    #
-    #     eps_smooth, reward_smooth = plotting.plot_episode_stats(stats, noshow=True, smoothing_window=1000)
-    #     smooth_rewards.append(reward_smooth)
-    #     smooth_times.append(eps_smooth)
-    #
-    #     reward_array.append(rewards)
-    #     iter_array.append(iters)
-    #     Q_array.append(Q)
-    #
-    #     env.close()
-    #     end = time.time()
-    #     time_array.append(end - st)
-
-    # plt.figure()
-    # plt.plot(epsilons, time_array, label="Q Learning")
-    # plt.xlabel('Learning Rate')
-    # plt.title('FrozenLake - Execution Time Analysis')
-    # plt.ylabel('Execution Time (s)')
-    # plt.legend(loc='best')
-    # title = "FrozenLake - Execution Time Analysis"
-    # plt.title("%s" % title)
-    # filename = '%s_%s_%s' % ('times', 'qlearning', dataset_name)
-    # chart_path = 'report/images/%s.png' % filename
-    # plt.savefig(chart_path)
-    # processor.latext_start_figure()
-    # processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Times', filename=filename)
-    #
-    # plt.figure()
-    # for epsilon, rewards in zip(epsilons, smooth_rewards):
-    #     plt.plot(rewards, label=f'epsilon={epsilon}')
-    #
-    # plt.legend(loc='best')
-    # plt.xlabel("Episode")
-    # plt.ylabel("Episode Reward (Smoothed)")
-    # plt.title("FrozenLake - Q Learning - Episode Reward over Time")
-    # title = "FrozenLake - Reward Analysis"
-    # plt.title("%s" % title)
-    # filename = '%s_%s_%s' % ('rewards', 'qlearning', dataset_name)
-    # chart_path = 'report/images/%s.png' % filename
-    # plt.savefig(chart_path)
-    # processor.latext_start_figure()
-    # processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Rewards', filename=filename)
-    #
-    # plt.figure()
-    # for epsilon, rewards in zip(epsilons, smooth_times):
-    #     plt.plot(rewards, label=f'epsilon={epsilon}')
-    #
-    # plt.xlabel('Episode')
-    # plt.legend(loc='best')
-    # plt.grid()
-    # plt.title('FrozenLake - Q Learning - Episode Length over Time')
-    # plt.ylabel('Steps')
-    # title = "FrozenLake - Reward Analysis"
-    # plt.title("%s" % title)
-    # filename = '%s_%s_%s' % ('convergence', 'qlearning', dataset_name)
-    # chart_path = 'report/images/%s.png' % filename
-    # plt.savefig(chart_path)
-    # processor.latext_start_figure()
-    # processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Convergence', filename=filename)
 
 
 def run_episode(env, policy, gamma, render=True):
@@ -505,6 +231,8 @@ def run_episode(env, policy, gamma, render=True):
         if render:
             env.render()
         obs, reward, done, _ = env.step(int(policy[obs]))
+        if done and reward == 0:
+            env.reset()
         total_reward += (gamma ** step_idx * reward)
         step_idx += 1
         if done:
@@ -646,7 +374,13 @@ def run_experiments_part1():
     except OSError as error:
         print("Directory '%s' can not be created")
     print('STARTING EXPERIMENTS')
-    Frozen_Lake_Experiments()
+    env = gym.make("FrozenLake-v0")
+    Frozen_Lake_Experiments(env=env, environment="FrozenLake-v0")
+
+    random_map = generate_random_map(size=40, p=0.8)
+    env = gym.make("FrozenLake-v0",  desc=random_map)
+    Frozen_Lake_Experiments(env=env, environment="FrozenLake-40x40")
+
     Taxi_Experiments()
     print('END OF EXPERIMENTS')
 

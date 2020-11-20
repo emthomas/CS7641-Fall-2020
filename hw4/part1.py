@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
+from gym.envs.toy_text.frozen_lake import generate_random_map
 
 from hw1.main import Processor
 
@@ -47,11 +48,13 @@ class Policy(object):
                  policy,
                  q_table,
                  name,
-                 iterations_to_converge):
+                 iterations_to_converge,
+                 time_to_converge=.0):
         self.policy = policy
         self.q_table = q_table
         self.name = name
         self.iterations_to_converge = iterations_to_converge
+        self.time_to_converge = time_to_converge
 
 
 class Metric(object):
@@ -74,17 +77,19 @@ class Metric(object):
         return f"Reward: {self.max}; Episode: {self.episode}; Step: {self.steps}; Epsilon: {self.eps}"
 
 
-def random_policy_steps_count(env):
+def random_policy_steps_count(env, max_steps=10000):
     state = env.reset()
     counter = 0
+    penalties = 0
     reward = None
-    while reward != 20 and reward != 1:
+    while reward != 20 and reward != 1 and counter < max_steps:
         state, reward, done, info = env.step(env.action_space.sample())
         if done:
             env.reset()
+            penalties +=1
         counter += 1
 
-    return counter
+    return counter, penalties
 
 
 def policy_eval(policy, env, discount_factor=1.0, theta=0.00001):
@@ -113,8 +118,8 @@ def policy_eval(policy, env, discount_factor=1.0, theta=0.00001):
             val = 0  # initiate value as 0
 
             for action, act_prob in enumerate(policy[state]):  # for all actions/action probabilities
-                for prob, next_state, reward, done in env.P[state][
-                    action]:  # transition probabilities,state,rewards of each action
+                # transition probabilities,state,rewards of each action
+                for prob, next_state, reward, done in env.P[state][action]:
                     val += act_prob * prob * (reward + discount_factor * V[next_state])  # eqn to calculate
             delta = max(delta, np.abs(val - V[state]))
             V[state] = val
@@ -163,7 +168,9 @@ def policy_iteration(env, policy_eval_fn=policy_eval, discount_factor=1.0):
     policy = np.ones([env.observation_space.n, env.action_space.n]) / env.action_space.n
 
     i = 0
+    st = time.time()
     while True:
+        print(f"Policy Iteration #{i}")
         i += 1
         # Implement this!
         curr_pol_val = policy_eval_fn(policy, env, discount_factor)  # eval current policy
@@ -175,8 +182,12 @@ def policy_iteration(env, policy_eval_fn=policy_eval, discount_factor=1.0):
             if chosen_act != best_act:
                 policy_stable = False  # Greedily find best action
             policy[state] = np.eye(env.action_space.n)[best_act]  # update 
-        if policy_stable:
-            return Policy(policy=policy, q_table=curr_pol_val, name="Policy Iteration", iterations_to_converge=i)
+        if policy_stable or i > 15:
+            return Policy(policy=policy
+                          , q_table=curr_pol_val
+                          , name="Policy Iteration"
+                          , iterations_to_converge=i
+                          , time_to_converge=time.time()-st)
 
     # return Policy(policy=policy, q_table=np.zeros(env.observation_space.n), name="Policy Iteration")
 
@@ -216,7 +227,12 @@ def value_iteration(env, theta=0.0001, discount_factor=1.0):
 
     V = np.zeros(env.observation_space.n)
     i = 0
+    st = time.time()
+    times = []
     while True:
+        if i % 100 == 0:
+            print(f"Value Iteration #{i}")
+        st_step = time.time()
         i += 1
         delta = 0  # checker for improvements across states
         for state in range(env.observation_space.n):
@@ -224,8 +240,13 @@ def value_iteration(env, theta=0.0001, discount_factor=1.0):
             best_act_value = np.max(act_values)  # get best action value
             delta = max(delta, np.abs(best_act_value - V[state]))  # find max delta across all states
             V[state] = best_act_value  # update value to best action value
+        times.append(time.time()-st_step)
         if delta < theta:  # if max improvement less than threshold
             break
+
+    plt.figure()
+    plt.plot(times)
+    plt.show()
 
     policy = np.zeros([env.observation_space.n, env.action_space.n])
     for state in range(env.observation_space.n):  # for all states, create deterministic policy
@@ -234,23 +255,29 @@ def value_iteration(env, theta=0.0001, discount_factor=1.0):
         policy[state][best_action] = 1
 
     # Implement!
-    return Policy(policy=policy, q_table=V, name="Value Iteration", iterations_to_converge=i)
+    return Policy(policy=policy
+                  , q_table=V
+                  , name="Value Iteration"
+                  , iterations_to_converge=i
+                  , time_to_converge=time.time()-st)
 
 
-def count(env, policy):
-    curr_state = env.reset()
+def count_steps(env, policy, max_steps=1000):
+    state = env.reset()
     counter = 0
+    penalties = 0
     reward = None
-    while reward != 20 and reward != 1:
-        state, reward, done, info = env.step(np.argmax(policy[curr_state]))
+    while reward != 20 and reward != 1 and counter < max_steps:
+        state, reward, done, info = env.step(np.argmax(policy[state]))
         if done:
             env.reset()
-        curr_state = state
+            penalties +=1
         counter += 1
-    return counter
+
+    return counter, penalties
 
 
-def Q_learning_train(env, alpha, gamma, epsilon, episodes):
+def Q_learning_train(env, alpha, gamma, epsilon, episodes, dataset_name, epsilons=None):
     """Q Learning Algorithm with epsilon greedy
 
     Args:
@@ -270,7 +297,7 @@ def Q_learning_train(env, alpha, gamma, epsilon, episodes):
     # For plotting metrics
     metrics = {}
     epsilon_decay = 0.99
-    epsilons = [x / 10 for x in range(1, 11, 2)]
+    epsilons = [x / 10 for x in range(1, 11, 2)] if not epsilons else epsilons
     policy = None
     q_table = None
     max_rewards = Metric()
@@ -290,14 +317,17 @@ def Q_learning_train(env, alpha, gamma, epsilon, episodes):
         for i in range(1, episodes + 1):
             st = time.time()
             experiment_epsilon *= epsilon_decay
-            if i % 1000 == 0:
+            if i % 100 == 0:
                 print(f"Episode {i}")
 
             state = env.reset()
 
             epochs, penalties, reward, total_reward = 0, 0, 0, 0
 
-            while reward != 20 and reward != 5:
+            while reward != 20 and reward != 5 and epochs <= 10000:
+                if epochs % 1000 == 0:
+                    print(f"Epoch #{epochs}")
+
                 if random.uniform(0, 1) < experiment_epsilon:
                     action = env.action_space.sample()  # Explore action space randomly
                 else:
@@ -358,7 +388,7 @@ def Q_learning_train(env, alpha, gamma, epsilon, episodes):
         for k, v in metrics.items():
             plt.plot(smooth(v[metric], window=500), label=f"epsilon={k}")
         plt.legend()
-        filename = '%s_%s_%s' % (metric, 'qlearning', env.spec.id)
+        filename = '%s_%s_%s' % (metric, 'qlearning', dataset_name)
         chart_path = 'report/images/%s.png' % filename
         print(chart_path)
         plt.savefig(chart_path)
@@ -486,79 +516,23 @@ def same_policies(first, second):
     return True
 
 
-def run(dataset_name, episodes=100000):
+def run(dataset_name, episodes=100000, env=None, epsilons=None):
     plt.figure()
     processor = Processor()
 
-    env = gym.make(dataset_name)
+    env = gym.make(dataset_name) if not env else env
     print(env.spec.id)
-    counts = [random_policy_steps_count(env=env) for i in range(1000)]
-    print("An agent using Random search takes about an average of " + str(int(np.mean(counts)))
-          + " steps to successfully complete its mission.")
-    sns.distplot(counts)
-    title = "Distribution of number of steps needed"
-    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
-    plt.title("%s" % title)
-    filename = '%s_%s_%s' % ('steps', 'random', dataset_name)
-    chart_path = 'report/images/%s.png' % filename
-    plt.savefig(chart_path)
-    plt.close()
-    processor.latext_start_figure()
-    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Random', filename=filename)
+    title = run_random_agent(dataset_name, env, processor)
 
     env.reset()
-    plt.figure()
-    pol_iter_policy = policy_iteration(env, policy_eval, discount_factor=0.99)
-    pol_count = count(env=env, policy=pol_iter_policy.policy)
-    pol_counts = [count(env=env, policy=pol_iter_policy.policy) for i in range(10000)]
-    print(f"Policy Iterations took {pol_iter_policy.iterations_to_converge} steps to converge.")
-    print("An agent using a policy which has been improved using policy-iterated takes about an average of " + str(
-        int(np.mean(pol_counts)))
-          + " steps to successfully complete its mission.")
-    sns.distplot(pol_counts)
-    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
-    plt.title("%s" % title)
-    filename = '%s_%s_%s' % ('steps', 'policy', dataset_name)
-    chart_path = 'report/images/%s.png' % filename
-    plt.savefig(chart_path)
-    plt.close()
-    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption="PI", filename=filename)
+    pol_iter_policy = run_pi_agent(dataset_name, env, processor, title)
 
     env.reset()
-    plt.figure()
-    val_iter_policy = value_iteration(env=env, discount_factor=0.99, theta=0.0001)
-    val_count = count(env=env, policy=val_iter_policy.policy)
-    val_counts = [count(env=env, policy=val_iter_policy.policy) for i in range(10000)]
-    print(f"Value Iterations took {val_iter_policy.iterations_to_converge} steps to converge.")
-    print("An agent using a policy which has been value-iterated takes about an average of " + str(
-        int(np.mean(val_counts)))
-          + " steps to successfully complete its mission.")
-    sns.distplot(val_counts)
-    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
-    plt.title("%s" % title)
-    filename = '%s_%s_%s' % ('steps', 'value', dataset_name)
-    chart_path = 'report/images/%s.png' % filename
-    plt.savefig(chart_path)
-    plt.close()
-    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption="VI", filename=filename)
+    val_iter_policy = run_vi_agent(dataset_name, env, processor, title)
 
     env.reset()
-    plt.figure()
-    Q_learn_pol = Q_learning_train(env=env, alpha=0.2, gamma=0.95, epsilon=0.95, episodes=episodes)
-    Q_Learning_counts = count(env=env, policy=Q_learn_pol.policy)
-    Q_counts = [count(env=env, policy=Q_learn_pol.policy) for i in range(1000)]
-    print("An agent using a policy which has been improved using Q-learning takes about an average of " + str(
-        int(np.mean(Q_counts)))
-          + " steps to successfully complete its mission.")
-    sns.distplot(Q_counts)
-    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
-    plt.title("%s" % title)
-    filename = '%s_%s_%s' % ('steps', 'qlearning', dataset_name)
-    chart_path = 'report/images/%s.png' % filename
-    plt.savefig(chart_path)
-    plt.close()
-    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption="Q Learning", filename=filename)
-    processor.latex_end_figure(caption=title, fig=fig)
+    Q_learn_pol = run_qlearning_agent(dataset_name, env, episodes, processor, title, epsilons=epsilons)
+
     compare_policies(pol_iter_policy, Q_learn_pol)
     compare_policies(Q_learn_pol, val_iter_policy)
     compare_policies(pol_iter_policy, val_iter_policy)
@@ -573,9 +547,175 @@ def run(dataset_name, episodes=100000):
                     color_map=colors_lake(), direction_map=directions_lake())
 
 
+def run_qlearning_agent(dataset_name, env, episodes, processor, title, epsilons=None):
+    plt.figure()
+    Q_learn_pol = Q_learning_train(env=env, alpha=0.2, gamma=0.95, epsilon=0.95, episodes=episodes, epsilons=epsilons, dataset_name=dataset_name)
+    Q_counts = []
+    penalties = []
+    for i in range(100):
+        if i % 10 == 0:
+            print(i)
+        count, penalty = count_steps(env=env, policy=Q_learn_pol.policy)
+        Q_counts.append(count)
+        penalties.append(penalty)
+    print("An agent using a policy which has been improved using Q-learning takes about an average of " + str(
+        int(np.mean(Q_counts)))
+          + " steps to successfully complete its mission.")
+
+    sns.distplot(Q_counts)
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('steps', 'qlearning', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    plt.close()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption="Q Learning", filename=filename)
+    processor.latex_end_figure(caption=title, fig=fig)
+
+    plt.figure()
+    sns.distplot(penalties)
+    title = "Distribution of penalties"
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('penalties_steps', 'qlearning', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    print(chart_path)
+    plt.close()
+    processor.latext_start_figure()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Q Learning', filename=filename)
+    return Q_learn_pol
+
+
+def run_vi_agent(dataset_name, env, processor, title):
+    plt.figure()
+    val_iter_policy = value_iteration(env=env, discount_factor=0.99, theta=0.0001)
+    val_counts = []
+    penalties = []
+    for i in range(100):
+        if i % 10 == 0:
+            print(i)
+        count, penalty = count_steps(env=env, policy=val_iter_policy.policy)
+        val_counts.append(count)
+        penalties.append(penalty)
+    print(f"Value Iterations took {val_iter_policy.iterations_to_converge} steps to converge.")
+    print(f"Value Iterations took {val_iter_policy.time_to_converge} seconds to converge.")
+    print("An agent using a policy which has been value-iterated takes about an average of " + str(
+        int(np.mean(val_counts)))
+          + " steps to successfully complete its mission.")
+    sns.distplot(val_counts)
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('steps', 'value', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    plt.close()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption="VI", filename=filename)
+
+    plt.figure()
+    sns.distplot(penalties)
+    title = "Distribution of penalties"
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('penalties_steps', 'vi', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    print(chart_path)
+    plt.close()
+    processor.latext_start_figure()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='VI', filename=filename)
+    return val_iter_policy
+
+
+def run_pi_agent(dataset_name, env, processor, title):
+    plt.figure()
+    pol_iter_policy = policy_iteration(env, policy_eval, discount_factor=0.99)
+    pol_counts = []
+    penalties = []
+    for i in range(100):
+        if i % 10 == 0:
+            print(i)
+        count, penalty = count_steps(env=env, policy=pol_iter_policy.policy)
+        pol_counts.append(count)
+        penalties.append(penalty)
+
+    print(f"Policy Iterations took {pol_iter_policy.iterations_to_converge} steps to converge.")
+    print(f"Policy Iterations took {pol_iter_policy.time_to_converge} seconds to converge.")
+    print("An agent using a policy which has been improved using policy-iterated takes about an average of " + str(
+        int(np.mean(pol_counts)))
+          + " steps to successfully complete its mission.")
+    sns.distplot(pol_counts)
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('steps', 'policy', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    plt.close()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption="PI", filename=filename)
+
+    plt.figure()
+    sns.distplot(penalties)
+    title = "Distribution of penalties"
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('penalties_steps', 'policy', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    print(chart_path)
+    plt.close()
+    processor.latext_start_figure()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='PI', filename=filename)
+    return pol_iter_policy
+
+
+def run_random_agent(dataset_name, env, processor):
+    counts = []
+    penalties = []
+    for i in range(100):
+        if i % 10 == 0:
+            print(i)
+        count, penalty = random_policy_steps_count(env=env)
+        counts.append(count)
+        penalties.append(penalty)
+
+    print("An agent using Random search takes about an average of " + str(int(np.mean(counts)))
+          + " steps to successfully complete its mission.")
+    print("An agent using Random search is penalized " + str(int(np.mean(penalties))) + " times.")
+    plt.figure()
+    sns.distplot(counts)
+    title = "Distribution of number of steps needed"
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('steps', 'random', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    print(chart_path)
+    plt.close()
+    processor.latext_start_figure()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Random', filename=filename)
+
+    plt.figure()
+    sns.distplot(penalties)
+    title = "Distribution of penalties"
+    fig = re.sub('[^0-9a-zA-Z]+', '_', title.lower())
+    plt.title("%s" % title)
+    filename = '%s_%s_%s' % ('penalties_steps', 'random', dataset_name)
+    chart_path = 'report/images/%s.png' % filename
+    plt.savefig(chart_path)
+    print(chart_path)
+    plt.close()
+    processor.latext_start_figure()
+    processor.latex_subgraph(dataset=dataset_name, fig=filename, caption='Random', filename=filename)
+    return title
+
+
 def run_experiments_part2():
-    run(dataset_name='Taxi-v1', episodes=5000)
+    # run(dataset_name='Taxi-v1', episodes=5000)
     run(dataset_name='FrozenLake-v0', episodes=5000)
+
+    # random_map = generate_random_map(size=40, p=0.8)
+    # env = gym.make("FrozenLake-v0", desc=random_map)
+    # run(dataset_name='FrozenLake-40x40', episodes=5000, env=env, epsilons=[0.99])
 
 
 if __name__ == '__main__':
